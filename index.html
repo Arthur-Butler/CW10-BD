@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="flightLog"></div>
+        <script type='module'>
+            import getLocation from 'module.js';
+            function importFunc(){
+                getLocation();
+            }
+        </script>
+        <button class="locFlight" onclick="importFunc()">Flights</button>
+        <script src=module.js type=module></script>
+        
+    </body>
+</html>
